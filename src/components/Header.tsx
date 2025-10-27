@@ -11,7 +11,7 @@ type NavLink = {
 
 // --- nav links ---
 const navLinks: NavLink[] = [
-	{ href: '#home', label: 'Home' },
+	// { href: '#hero', label: 'Home' },
 	{ href: '#about', label: 'About' },
 	{ href: '#experience', label: 'Experience' },
 	{ href: '#skills', label: 'Skills' },
@@ -58,12 +58,13 @@ const Header = () => {
 				<nav className='flex items-center justify-between py-4'>
 					{/* Logo or Name */}
 					{/* TODO: chnge this to a link */}
-					<button
+					<a 
+						href='#hero'
 						className="text-lg font-semibold text-foreground hover:text-primary transition-colors"
-						onClick={() => scrollToSection( 'about')}
+						onClick={() => scrollToSection( 'hero')}
 					>
-						Walker
-					</button>
+						Walker Gnamavo
+					</a>
 					{/* End Logo or Name */}
 					{/* Navigation links */}
 					<ul className="hidden md:flex items-center gap-6 text-sm">
