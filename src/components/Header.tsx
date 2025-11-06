@@ -63,7 +63,7 @@ const Header = () => {
 						className="text-lg font-semibold text-foreground hover:text-primary transition-colors"
 						onClick={() => scrollToSection( 'hero')}
 					>
-						Walker Gnamavo
+						Gilles Gnamavo
 					</a>
 					{/* End Logo or Name */}
 					{/* Navigation links */}
