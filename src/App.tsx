@@ -2,6 +2,7 @@ import AboutSection from './components/About'
 import ExperienceSection from './components/Experience'
 import Header from './components/Header'
 import HomeSection from './components/Home'
+import SkillsSection from './components/Skills'
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
         <AboutSection />
         {/* Experience */}
         <ExperienceSection />
-        {/* Projects */}
         {/* Skills */}
+        <SkillsSection />
+        {/* Projects */}
         {/* Contact */}
       </div>
 
