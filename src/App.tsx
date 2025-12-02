@@ -1,4 +1,5 @@
 import AboutSection from './components/About'
+import ExperienceSection from './components/Experience'
 import Header from './components/Header'
 import HomeSection from './components/Home'
 
@@ -12,8 +13,9 @@ function App() {
         {/* Hero */}
         <HomeSection />
         {/* About */}
-        <AboutSection/>
+        <AboutSection />
         {/* Experience */}
+        <ExperienceSection />
         {/* Projects */}
         {/* Skills */}
         {/* Contact */}
