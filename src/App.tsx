@@ -1,4 +1,5 @@
 import AboutSection from './components/About'
+import ContactSection from './components/Contact'
 import ExperienceSection from './components/Experience'
 import Header from './components/Header'
 import HomeSection from './components/Home'
@@ -21,6 +22,7 @@ function App() {
         <SkillsSection />
         {/* Projects */}
         {/* Contact */}
+        <ContactSection />
       </div>
 
       {/* Footer */}
