@@ -27,7 +27,7 @@ const ContactSection: React.FC = () => {
 		setIsSubmitting(true);
 
 		try {
-			const response = await fetch('https://formsubmit.co/gnamavogilles@gmail.com', {
+			const response = await fetch('https://formspree.io/f/xdkqddgl', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',

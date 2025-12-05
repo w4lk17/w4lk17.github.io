@@ -1,8 +1,10 @@
 import AboutSection from './components/About'
 import ContactSection from './components/Contact'
 import ExperienceSection from './components/Experience'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import HomeSection from './components/Home'
+import ProjectsSection from './components/Projects'
 import SkillsSection from './components/Skills'
 
 function App() {
@@ -21,11 +23,13 @@ function App() {
         {/* Skills */}
         <SkillsSection />
         {/* Projects */}
+        <ProjectsSection />
         {/* Contact */}
         <ContactSection />
       </div>
 
       {/* Footer */}
+      <Footer />
     </div>
   )
 }
